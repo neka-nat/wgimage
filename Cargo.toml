@@ -1,0 +1,19 @@
+[package]
+name = "wgimage"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Rust implementation of image processing library with WebGPU."
+readme = "README.md"
+documentation = "http://neka-nat.github.io/wgimage/wgimage/"
+homepage = "https://github.com/neka-nat/wgimage"
+repository = "https://github.com/neka-nat/wgimage"
+keywords = ["computer-vision", "WebGPU"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wgpu = "0.16.1"
+image = "0.24.6"
+bytemuck = "1.13.1"
+futures = "0.3.28"

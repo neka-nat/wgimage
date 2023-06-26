@@ -1,5 +1,7 @@
 # wgimage
 
+[![crates.io](https://img.shields.io/crates/v/wgimage.svg)](https://crates.io/crates/wgimage)
+
 WebGPU Image Processing Library.
 
 ## Getting started

@@ -182,9 +182,8 @@ impl<'a> GaussianBlur<'a> {
             .device
             .create_command_encoder(&CommandEncoderDescriptor { label: None });
         {
-            let mut compute_pass = encoder.begin_compute_pass(&ComputePassDescriptor {
-                label: Some("gaussian blur pass"),
-            });
+            let mut compute_pass =
+                encoder.begin_compute_pass(&ComputePassDescriptor { label: None });
             compute_pass.set_pipeline(&self.pipeline);
             compute_pass.set_bind_group(0, &compute_constants, &[]);
             compute_pass.set_bind_group(1, &vertical_bind_group, &[]);

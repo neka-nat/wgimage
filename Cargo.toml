@@ -1,6 +1,6 @@
 [package]
 name = "wgimage"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 license = "MIT"
 description = "Rust implementation of image processing library with WebGPU."
